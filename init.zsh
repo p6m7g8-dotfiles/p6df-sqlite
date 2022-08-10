@@ -1,4 +1,4 @@
-
+# shellcheck shell=bash
 ######################################################################
 #<
 #
@@ -7,7 +7,7 @@
 #>
 ######################################################################
 p6df::modules::sqlite::deps() {
-  Modules=(
+  ModuleDeps=(
     p6m7g8-dotfiles/p6common
   )
 }
@@ -29,4 +29,6 @@ p6df::modules::sqlite::external::brew() {
   brew install --cask db-browser-for-sqlite
   brew install --cask sqlitemanager
   brew install --cask sqlitestudio
+
+  p6_return_void
 }
