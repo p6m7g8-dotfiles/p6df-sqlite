@@ -21,14 +21,14 @@ p6df::modules::sqlite::deps() {
 ######################################################################
 p6df::modules::sqlite::external::brew() {
 
-  brew install sqlite
-  brew install sqlite-analyzer
-  brew install sqlite-utils
-  brew install sqliteodbc
+  p6df::modules::homebrew::cli::brew::install sqlite
+  p6df::modules::homebrew::cli::brew::install sqlite-analyzer
+  p6df::modules::homebrew::cli::brew::install sqlite-utils
+  p6df::modules::homebrew::cli::brew::install sqliteodbc
 
-  brew install --cask db-browser-for-sqlite
-  brew install --cask sqlitemanager
-  brew install --cask sqlitestudio
+  p6df::modules::homebrew::cli::brew::install --cask db-browser-for-sqlite
+  p6df::modules::homebrew::cli::brew::install --cask sqlitemanager
+  p6df::modules::homebrew::cli::brew::install --cask sqlitestudio
 
   p6_return_void
 }
