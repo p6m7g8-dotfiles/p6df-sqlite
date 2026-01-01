@@ -28,7 +28,6 @@ p6df::modules::sqlite::external::brew() {
 
 #  p6df::modules::homebrew::cli::brew::install --cask db-browser-for-sqlite
 #  p6df::modules::homebrew::cli::brew::install --cask sqlitemanager
-#  p6df::modules::homebrew::cli::brew::install --cask sqlitestudio
 
   p6_return_void
 }
