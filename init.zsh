@@ -15,11 +15,11 @@ p6df::modules::sqlite::deps() {
 ######################################################################
 #<
 #
-# Function: p6df::modules::sqlite::external::brew()
+# Function: p6df::modules::sqlite::external::brews()
 #
 #>
 ######################################################################
-p6df::modules::sqlite::external::brew() {
+p6df::modules::sqlite::external::brews() {
 
   p6df::core::homebrew::cli::brew::install sqlite
   p6df::core::homebrew::cli::brew::install sqlite-analyzer
