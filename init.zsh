@@ -31,3 +31,19 @@ p6df::modules::sqlite::external::brews() {
 
   p6_return_void
 }
+
+######################################################################
+#<
+#
+# Function: words sqlite $SQLITE_PATH = p6df::modules::sqlite::profile::mod()
+#
+#  Returns:
+#	words - sqlite $SQLITE_PATH
+#
+#  Environment:	 SQLITE_PATH
+#>
+######################################################################
+p6df::modules::sqlite::profile::mod() {
+
+  p6_return_words 'sqlite' "$"
+}
