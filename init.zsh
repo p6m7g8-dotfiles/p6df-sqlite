@@ -45,5 +45,5 @@ p6df::modules::sqlite::external::brews() {
 ######################################################################
 p6df::modules::sqlite::profile::mod() {
 
-  p6_return_words 'sqlite' "$"
+  p6_return_words 'sqlite' '$SQLITE_HISTORY'
 }
