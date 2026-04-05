@@ -36,7 +36,8 @@ TODO: Add a short summary of this module.
 ##### p6df-sqlite/init.zsh
 
 - `p6df::modules::sqlite::deps()`
-- `p6df::modules::sqlite::external::brew()`
+- `p6df::modules::sqlite::external::brews()`
+- `words sqlite = p6df::modules::sqlite::profile::mod()`
 
 ## Hierarchy
 

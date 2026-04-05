@@ -35,12 +35,12 @@ p6df::modules::sqlite::external::brews() {
 ######################################################################
 #<
 #
-# Function: words sqlite $SQLITE_PATH = p6df::modules::sqlite::profile::mod()
+# Function: words sqlite = p6df::modules::sqlite::profile::mod()
 #
 #  Returns:
-#	words - sqlite $SQLITE_PATH
+#	words - sqlite
 #
-#  Environment:	 SQLITE_PATH
+#  Environment:	 SQLITE_HISTORY
 #>
 ######################################################################
 p6df::modules::sqlite::profile::mod() {
